@@ -95,7 +95,7 @@ if(values.urlValues===""){
                     <div className="card text-bg-dark mb-3" style={{ maxWidth: "18rem" }}>
                       <div className="card-header">Total clicks: {val.totalclick}</div>
                       <div className="card-body">
-                        <h5 className="card-title">Your short url: <a onClick={countI} href={`${val.divUrl}`} rel=" noreferrer" target={'_blank'}>{val.divUrl}</a></h5>
+                        <h5 className="card-title">Your short url: <a onClick={countI} href={`https://urlshortnerbackendday43.herokuapp.com/s/${val.shorturl}`} rel=" noreferrer" target={'_blank'}>{`https://urlshortnerbackendday43.herokuapp.com/s/${val.shorturl}`}</a></h5>
                         <p className="card-text">You will be diverted to: {val.urlValues}</p>
                       </div>
                     </div>
