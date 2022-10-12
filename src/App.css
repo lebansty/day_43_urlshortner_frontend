@@ -1,38 +1,93 @@
 .App {
   text-align: center;
+  background-color: azure;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navDes{
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  height: 325px;
+  background-color: dodgerblue;
+  padding-top: 60px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:azure;
+  text-shadow: 2px 0px black;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.login{
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  border-radius: 15px;
+  background-color:aliceblue;
+  height: 450px;
+  padding-top: 50px;
+  position: relative;
+  top:-170px;
+  text-align:left;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.login button:hover{
+  background-color: #1E73C1 !important;
+  
+}
+.login button{
+  width: 90%;
+}
+.bton{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.signup{
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  border-radius: 15px;
+  background-color:aliceblue;
+  height: 500px;
+  padding-top: 50px;
+  position: relative;
+  top:-170px;
+  text-align:left;
+}
+.signup button:hover{
+  background-color: #1E73C1 !important;
+}
+.signup button{
+  width: 90%;
+}
+.decor{
+  text-decoration: none;
+  color: #1E73C1 !important;
+  
+  
+}
+.decor:hover{
+  color: blue !important;
+}
+.custom-btn{
+  background-color: #1E73C1 !important;
 }
 
-.App-link {
-  color: #61dafb;
+.acti{
+  
+  height: 400px;
+  width: 400px;
+  position: relative;
+  top:-100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-size: 25px;
+  font-family: cursive;
+  font-weight: 800;
+background: rgba(255, 255, 255, 0.85);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(0.2px);
+-webkit-backdrop-filter: blur(0.2px);
+border: 1px solid rgba(255, 255, 255, 0.18);
+box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar a{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: azure;
+  text-shadow: 1px 2px black;
 }
